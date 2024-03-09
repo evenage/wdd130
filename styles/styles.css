@@ -34,7 +34,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here  */
     padding: 1rem;
-    background-color: #eee;
+    background-color: #eeeeee;
     color: #333;
     text-align: center;
 }
@@ -49,12 +49,12 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(119, 20, 20);
 }
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #000;
+    border-top: 1px solid #044235;
     text-align: center;
 }
 
