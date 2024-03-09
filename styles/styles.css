@@ -4,7 +4,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(128, 16, 77);
     display: block;
     padding: 10px;
 }
@@ -18,7 +18,7 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(19, 202, 58);
 }
 
 p {
@@ -32,9 +32,9 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here  */
+    border: 1px solid rgba(21, 170, 108, 0.2); /* why use rgba instead of hex here  */
     padding: 1rem;
-    background-color: #eeeeee;
+    background-color: #0000ff;
     color: #333;
     text-align: center;
 }
@@ -47,7 +47,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(18, 134, 80);
     padding: 2px;
     box-shadow: 0 0 30px rgb(119, 20, 20);
 }
