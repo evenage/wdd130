@@ -55,7 +55,7 @@ main img {
 footer {
     margin-top: 1em;
     border-top: 1px solid #20947b;
-    list-style-position:"text-align-center";
-    background-color: blue
+    text-align: center;
+    
 }
 
