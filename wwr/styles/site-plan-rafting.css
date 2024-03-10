@@ -3,20 +3,20 @@
 
 :root {
     
-    --primary-color: #007bff; /* Blue */
-    --secondary-color: #28a745; /* Green */
-    --accent1-color: #ffc107; /* Yellow */
-    --accent2-color: #dc3545; /* Red */
+    --primary-color: #007bff; 
+    --secondary-color: #28a745; 
+    --accent1-color: #ffc107;
+    --accent2-color: #dc3545; 
 
 
     --heading-font: 'Arial', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
     
-    --nav-background-color: #f8f9fa; /* Light Gray */
-    --nav-link-color: #333; /* Dark Gray */
-    --nav-hover-link-color: #007bff; /* Blue */
-    --nav-hover-background-color: #e9ecef; /* Light Gray */
+    --nav-background-color: #f8f9fa;
+    --nav-link-color: #333; 
+    --nav-hover-link-color: #007bff;
+    --nav-hover-background-color: #e9ecef;
 }
 
 
