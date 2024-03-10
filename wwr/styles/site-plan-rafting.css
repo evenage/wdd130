@@ -10,18 +10,18 @@ body {
     /* Color Variables */
     --primary-color: #007bff; /* Blue */
     --secondary-color: #28a745; /* Green */
-    --accent-color1: #ffc107; /* Yellow */
-    --accent-color2: #dc3545; /* Red */
+    --accent1-color: #ffc107; /* Yellow */
+    --accent2-color: #dc3545; /* Red */
 
     /* Font Variables */
     --heading-font: 'Arial', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
     /* Navigation Variables */
-    --navigation-bg-color: #f8f9fa; /* Light Gray */
+    --navigation-background-color: #f8f9fa; /* Light Gray */
     --navigation-link-color: #333; /* Dark Gray */
     --navigation-hover-link-color: #007bff; /* Blue */
-    --navigation-hover-bg-color: #e9ecef; /* Light Gray */
+    --navigation-hover-background-color: #e9ecef; /* Light Gray */
 }
 
 body {
@@ -58,7 +58,12 @@ nav a {
     padding: 1rem;
 }
 
-nav a: link, nav a:visited {
+nav a:link {
+    color: var(--nav-link-color);
+
+}
+
+nav a:visited{
     color: var(--nav-link-color);
 
 }
