@@ -1,51 +1,48 @@
-
-/* External font import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Root variables */
+
 :root {
-    /* Color Variables */
+    
     --primary-color: #007bff; /* Blue */
     --secondary-color: #28a745; /* Green */
     --accent1-color: #ffc107; /* Yellow */
     --accent2-color: #dc3545; /* Red */
 
-    /* Font Variables */
+
     --heading-font: 'Arial', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
-    /* Navigation Variables */
+    
     --nav-background-color: #f8f9fa; /* Light Gray */
     --nav-link-color: #333; /* Dark Gray */
     --nav-hover-link-color: #007bff; /* Blue */
     --nav-hover-background-color: #e9ecef; /* Light Gray */
 }
 
-/* Body styles */
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-/* Grouping selector for all built-in headings */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-/* Header styles */
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
 
-/* Paragraph styles */
+
 p {
     padding: 25px;
 }
 
-/* Navigation styles */
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
