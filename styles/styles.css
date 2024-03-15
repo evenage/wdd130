@@ -1,3 +1,11 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -31,11 +39,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(21, 170, 108, 0.2); /* why use rgba instead of hex here  */
-    padding: 1rem;
-    background-color: #0000ff;
-    color: #333;
     text-align: center;
 }
 
@@ -50,6 +53,7 @@ main img {
     border: 1px solid rgb(18, 134, 80);
     padding: 2px;
     box-shadow: 0 0 30px rgb(119, 20, 20);
+    float: right;
 }
 
 footer {
@@ -59,3 +63,18 @@ footer {
     
 }
 
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rbg(21, 170, 108, 0.2);
+    padding: 1rem;
+    background-color: #0000ff;
+    color: #333;
+}
+
+aside h2 {
+    position: absolute;
+    top: 46px;
+    left: 150px;
+}
