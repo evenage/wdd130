@@ -65,10 +65,24 @@ article img {
 }
 
 
+.hero {
+    position: relative;
+}
+
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hero img
+
 }
 
 
