@@ -49,12 +49,6 @@ p {
    padding: 0;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 
 h1 {
     position:absolute;
@@ -65,7 +59,16 @@ article {
     background-color: #333;
 }
 
-img {
+article img {
     float: right;
     margin: 0;
 }
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
