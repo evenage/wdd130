@@ -46,7 +46,6 @@ p {
 aside {
     position: relative;
     width: 20rem;
-    text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -78,7 +77,6 @@ p {
 }
 
 footer {
-    margin-top: 1em;
     border-top: 1px solid #20947b;
     text-align: center;
     
