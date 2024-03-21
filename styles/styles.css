@@ -96,6 +96,10 @@ header, .grid, footer {
     margin: 0 auto;
 }
 
+header {
+    display: block;
+}
+
 .grid {
     display: grid;
     align-items: center;
