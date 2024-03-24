@@ -18,7 +18,13 @@
     --nav-hover-background-color: #e9ecef;
 }
 
+main {
+    max-width: 840px;
+}
 
+p {
+    padding: 0;
+}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,11 +34,13 @@ h1, h2, h3, h4, h5, h6 {
   
 p {
     font-family: var(--font-family);
-    color: var(--primary-color);
+    font-size: 2em;
+    color: black;
 }
   
 
 a {
+    text-decoration: none;
     color: var(--secondary-color);
 }
   
@@ -55,8 +63,16 @@ a {
     width: 100%;
     height: auto;
 }
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
     
-  
 
 .article {
     position: absolute;
