@@ -54,6 +54,9 @@ p {
     height: auto;
 }
 
+h1 {
+    text-align: center;
+}
 
 article {
     position:absolute;
@@ -86,7 +89,7 @@ article img {
 
 
 header {
-    background-color: #003366;
+    background-color: #63706b;
     color: #fff;
     padding: 1rem;
     display: grid;
