@@ -49,12 +49,11 @@ p {
    padding: 0;
 }
 
-
-h1 {
-    position:absolute;
-    font-size: 2rem;
-    font-family: Acme, Arial, sans-serif;
+.logo img {
+    width: 150px;
+    height: auto;
 }
+
 
 article {
     position:absolute;
@@ -85,6 +84,7 @@ article img {
     transform: translate(-50%, -50%);
 }
 
+
 header {
     background-color: #003366;
     color: #fff;
@@ -92,11 +92,6 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-}
-
-.logo img {
-    width: 150px;
-    height: auto;
 }
 
 nav {
