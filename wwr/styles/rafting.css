@@ -22,13 +22,6 @@ main {
     max-width: 840px;
 }
 
-body {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-}
-
 p {
     padding: 0;
 }
