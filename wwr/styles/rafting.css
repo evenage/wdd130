@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   
 p {
     font-family: var(--font-family);
-    font-size: 2em;
+    font-size: 1em;
     color: black;
 }
   
@@ -73,6 +73,14 @@ a {
     color: #fff;
 }
     
+.hero-content h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+}
+  
+.hero-content p {
+    font-size: 1.2rem;
+}
 
 .article {
     position: absolute;
