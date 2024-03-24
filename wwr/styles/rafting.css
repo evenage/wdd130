@@ -52,6 +52,8 @@ p {
 
 h1 {
     position:absolute;
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
 }
 
 article {
@@ -72,7 +74,7 @@ article img {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 100px;
     height: auto;
 }
 
@@ -83,4 +85,99 @@ article img {
     transform: translate(-50%, -50%);
 }
 
+header {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1000px;
+}
 
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100rem;
+}
+
+
+.navigation a {
+    display: block;
+    color: indigo;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.history-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.history-image img {
+    max-width: 100px;
+    height: auto;
+}
+
+.adventures-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+
+
+.footer-icons {
+    display: inline-block;
+}
+
+.footer-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
