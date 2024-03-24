@@ -24,73 +24,52 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family);
     color: var(--primary-color);
-  }
+}
   
-  p {
+p {
     font-family: var(--font-family);
     color: var(--primary-color);
-  }
+}
   
 
-  a {
+a {
     color: var(--secondary-color);
-  }
+}
   
-  .social-media-links a {
+.social-media-links a {
     text-decoration: none;
-  }
+}
   
-  .container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
 
-  .hero {
+.hero {
     position: relative;
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .hero img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-  
-  .hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    z-index: 1;
-  }
-  
-  .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .hero-content p {
-    font-size: 1.2rem;
-  }
 
-  .article {
+}
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+    
+  
+
+.article {
     position: absolute;
     top: 50px;
     right: 50px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     z-index: 1;
-  }
+}
   
 
-  .article img {
+.article img {
     float: right;
     margin-left: 20px; 
-  }
+}
 
