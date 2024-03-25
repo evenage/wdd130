@@ -166,39 +166,24 @@ nav {
 
 }
 
-.history {
-    padding: 40px;
-    background-color: #f2f2f2;
-}
-  
-
-.history-content {
+.history-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-  
 
-.history-item {
-    background-color: #8f4e4e;
-    padding: 20px;
-    border-radius: 5px;
+.history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-  
-.history-item img {
-    max-width: 100%;
+
+.history-image img {
+    max-width: 100px;
     height: auto;
 }
-  
-.history-item h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
-  
-.history-item p {
-    margin-top: 10px;
-    font-size: 14px;
-}
+
+
 
 .adventures {
     padding: 40px;
