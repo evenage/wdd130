@@ -7,55 +7,95 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    font-family: Acme, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #b6a9a9;
+    background-color: blueviolet;
+
 }
 
+header {
+    margin: 0;
+    width: 700px;
+}
 
 h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color:chartreuse;
     text-align: center;
 }
 
-
 form {
-    max-width: 500px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
 }
 
+fiedset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Merriwaether, Georgia, serif;
+}
 
 label {
-    display: block;
-    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
 }
 
 
-input[type="text"],textarea,select,input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+button {
+    margin: 1rem;
+    background-color: navy;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+    border-top: 1px solid darkgray;
 }
 
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
+.form-item {
+    display: grid;
+    align-items: center;
 }
