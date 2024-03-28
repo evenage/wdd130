@@ -36,11 +36,11 @@ form {
     display: grid;
 }
 
-fiedset {
+fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(175, 34, 34, 0.3);
     padding: 1rem;
 }
 
@@ -74,7 +74,7 @@ input[type="checkbox"] {
 button {
     margin: 1rem;
     background-color: navy;
-    color: #fff;
+    color: #0c8a41;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -90,7 +90,7 @@ footer {
     width: 650px;
     text-align: center;
     font-size: 0.8em;
-    color: #888;
+    color: #220b77;
     border-top: 1px solid darkgray;
 }
 
