@@ -112,17 +112,15 @@ a {
 
 .article {
     position: absolute;
-    top: 50px;
-    right: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    background-color: black(202, 99, 99, 0.8);
+    padding: 0;
     z-index: 1;
 }
   
 
 .article img {
     float: right;
-    margin-left: 20px; 
+    margin-left: .5px; 
 }
 
 header {
