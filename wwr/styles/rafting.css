@@ -59,25 +59,25 @@ a {
 }
 
 .hero img {
-    width:;
+    width: 1000px;
 }
 
 
 .hero h1 {
     position: absolute;
-    top: px;
-    witdh:;
+    top: 1px;
+    width: 400px;
 }
 
 article img {
     float: right;
     margin: 0;
-    width: ;
+    width: 200px ;
 }
 
 .hero article {
     color: black;
-    font-size:;
+    font-size: 2rem;
     text-align: left;
 }
 
