@@ -18,6 +18,12 @@
     --nav-hover-background-color: #e9ecef;
 }
 
+/*******************************************************************
+*
+*               Default HTML TAG settings
+*
+********************************************************************/
+
 main {
     max-width: 840px;
 }
@@ -30,12 +36,31 @@ p {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family);
     color: var(--primary-color);
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+h1, h2 {
+   font-family: var(--font-2);
+   padding: 0.5em;
+   margin: 0;
+}
+
+h3,
+h4 {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
   
 p {
-    font-family: var(--font-family);
-    font-size: 1em;
-    color: black;
+    text-align: left;
 }
   
 
@@ -44,58 +69,72 @@ a {
     color: var(--secondary-color);
 }
   
-.social-media-links a {
-    text-decoration: none;
+img {
+    max-width: 100%;
 }
+
+/*******************************************************
+*
+*              Content Defaults
+*       This is where you place all the class names
+*       that are used on all pages. For example a hero
+*       image and the content can be the same and placed
+*       in this area.*/
   
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 1000px;
-}
-
-
-.hero h1 {
-    position: absolute;
-    top: 1px;
-    width: 400px;
-}
-
-article img {
-    float: right;
+body {
+    font-size: 22px;
     margin: 0;
-    width: 200px ;
+    padding: 0;
+    background-color: #c1f7f7;
+    font-family: var(--paragraph-font);
 }
 
-.hero article {
-    color: black;
-    font-size: 2rem;
-    text-align: left;
+header, main, footer {
+     max-width: 1024px;
+     margin: 0 auto;
+  }
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
-
-
+.adventures {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
   
 
-.content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.adventures-content {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+  
+
+.adventures-content figure {
+    flex: 1;
+    margin-right: 20px;
+}
+.adventures-content figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+  
+
+.adventure-content figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
-
-
+/*******************************************************
+*
+*              Header Area
+*
+********************************************************/
 header {
 	margin: 1rem auto;
 	display: grid;
@@ -109,11 +148,6 @@ header {
 	margin: 0 0.25rem 0 1rem;
 	width: 64px;
 	height: auto;
-}
-
-h1 {
-	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
 }
 
 nav {
@@ -143,37 +177,11 @@ nav {
 
 }
 
-.adventures {
-    padding: 40px;
-    background-color: #f9f9f9;
-}
-  
-
-.adventures-content {
-    display: flex;
-    justify-content: space-between;
-}
-  
-
-.adventures-content figure {
-    flex: 1;
-    margin-right: 20px;
-}
-  
-
-.adventures-content figure img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 5px;
-}
-  
-
-.adventures-content figcaption {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-}
+/*******************************************************
+*
+*              Footer Area
+*
+*******************************************************/
 
 footer {
     background-color: #333;
@@ -193,6 +201,188 @@ footer {
     font-size: 20px;
     text-decoration: none; 
 }
+
+.footer-p {
+    font-size: 14px;
+    line-height: 1.5; 
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+.footer-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social-media-links a {
+    text-decoration: none;
+}
+
+/*******************************************************
+*
+*              Homepage only CSS
+*
+*******************************************************/
+.container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.)
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*******************************************************
+*
+*              Rules for Trips Page only
+*
+*******************************************************/
+
+.trip-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.trip-page body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.trip-page header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.trip-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trip-page section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+
+.trip-page footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*******************************************************
+*
+*              Rules for About Us Page only
+*
+*******************************************************/
+.about-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-page body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.about-page header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+.about-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+.about-page section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Footer styles */
+.about-page footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*******************************************************
+*
+*              Rules for Contact Us page
+*
+*******************************************************/
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
 
 
 
