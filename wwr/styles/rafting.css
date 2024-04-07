@@ -260,49 +260,61 @@ footer {
 }
 /*******************************************************
 *
-*              Rules for Trips Page only
-*
+*              Rules for Trips page only
 *******************************************************/
 
-.trip-page * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.trip-description {
+    margin-bottom: 30px;
 }
 
-
-.trip-page body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+.trip-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
+.trip-description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
-.trip-page header {
-    background-color: #333;
+.trip-description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styles for trip table */
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.trip-table caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styles for contact button */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.trip-page .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.trip-page section {
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-}
-
-
-.trip-page footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+button:hover {
+    background-color: #0056b3;
 }
 
 /*******************************************************
