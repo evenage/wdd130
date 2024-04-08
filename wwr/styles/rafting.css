@@ -405,8 +405,6 @@ input[type="submit"]:hover {
 
 .map-container {
     position: relative;
-    overflow: hidden;
-    padding-top: 56%; 
 }
 
 .map-container iframe {
