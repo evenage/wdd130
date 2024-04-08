@@ -392,28 +392,29 @@ input[type="submit"]:hover {
 
 }
 
-.map-container {
-    width: 100%; 
-    height: 400px; 
-    position: relative;
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.map {
+.company-info {
+    margin-bottom: 20px;
+}
+
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56%; 
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-}
-
-.map .map-controls {
-    position: absolute; 
-    top: 10px; 
-    right: 10px; 
-    z-index: 1000; 
-}
-
-.map .marker {
-    width: 20px;
-    height: 20px;
-    background-color: #FF5733;
 }
 
 
