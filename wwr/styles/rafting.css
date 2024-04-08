@@ -263,42 +263,34 @@ footer {
 *              Rules for Trips page only
 *******************************************************/
 
-.trip-description {
-    margin-bottom: 30px;
-}
-
-.trip-description h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.trip-description p {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.trip-description img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-/* Styles for trip table */
 .trip-table {
-    margin-bottom: 30px;
+    width: 100%;
+    border-collapse: collapse;
 }
-
-.trip-table caption {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
+  
 .trip-table th, .trip-table td {
-    border: 1px solid #ccc;
-    padding-right: 10px;
+    padding: 8px 12px;
     text-align: left;
 }
+  
+.trip-table th {
+    background-color: #f2f2f2;
+}
+  
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.trip-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.trip-description img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 /* Styles for contact button */
 button {
@@ -309,6 +301,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 button:hover {
