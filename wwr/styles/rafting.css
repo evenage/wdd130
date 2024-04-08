@@ -208,6 +208,96 @@ nav {
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.header-content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+header {
+    background-image: url("header-image.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+  
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+  
+header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+  
+.cta-button {
+    display: inline-block;
+    background-color: #ff5500;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+  
+  .cta-button:hover {
+    background-color: #cc4400;
+}
+.newsletter {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+}
+  
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+  
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.signup-form button {
+    background-color: #ff5500;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.signup-form button:hover {
+    background-color: #cc4400;
+}
+  
+/* Grid Layout Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 50px;
+}
+  
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  
+.grid-item h3 {
+    margin-top: 10px;
+}
+  
+.grid-item p {
+    margin-top: 10px;
+}
+
 /*******************************************************
 *
 *              Rules for Trips page only
