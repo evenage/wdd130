@@ -392,15 +392,6 @@ input[type="submit"]:hover {
 
 }
 
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.company-info {
-    margin-bottom: 20px;
-}
 
 
 .map-container {
@@ -409,10 +400,6 @@ input[type="submit"]:hover {
 
 .map-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 
