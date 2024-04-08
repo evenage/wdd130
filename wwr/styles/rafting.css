@@ -177,57 +177,7 @@ nav {
 
 }
 
-/*******************************************************
-*
-*              Footer Area
-*
-*******************************************************/
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: right;
-    padding: 20px;
-}
-
-
-.footer-icons {
-    display: inline-block;
-}
-
-.footer-icons a {
-    margin-right: 10px;
-    color: white;
-    font-size: 20px;
-    text-decoration: none; 
-}
-
-.footer-p {
-    font-size: 14px;
-    line-height: 1.5; 
-}
-
-.footer-menu {
-    list-style-type: none;
-    padding: 0;
-}
-
-
-.footer-menu li {
-    display: inline;
-    margin-right: 10px;
-}
-
-
-
-.footer-menu li:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.social-media-links a {
-    text-decoration: none;
-}
 
 /*******************************************************
 *
@@ -393,15 +343,57 @@ input[type="submit"]:hover {
 }
 
 
+/*******************************************************
+*
+*              Footer Area
+*
+*******************************************************/
 
-.map-container {
-    position: relative;
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 20px;
 }
 
-.map-container iframe {
-    position: absolute;
+
+.footer-icons {
+    display: inline-block;
 }
 
+.footer-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.footer-p {
+    font-size: 14px;
+    line-height: 1.5; 
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+.footer-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social-media-links a {
+    text-decoration: none;
+}
 
 
 
