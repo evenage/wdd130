@@ -83,6 +83,9 @@ img {
   
 
 body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 22px;
     margin: 0;
     padding: 0;
